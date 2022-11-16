@@ -1,0 +1,29 @@
+Trying:
+    encode('SOS')
+Expecting:
+    '... --- ...'
+ok
+Trying:
+    encode('SOS')
+Expecting:
+    '...    ---
+    ...'
+ok
+Trying:
+    encode('HELP ME PLEASE')  # doctest: +ELLIPSIS
+Expecting:
+    '.... . .-.. .--....'
+ok
+Trying:
+    encode(1)
+Expecting:
+    Traceback (most recent call last):
+    TypeError: 'int' object is not iterable
+ok
+1 items had no tests:
+    test_morse_encode
+1 items passed all tests:
+   4 tests in test_morse_encode.encode
+4 tests in 2 items.
+4 passed and 0 failed.
+Test passed.
