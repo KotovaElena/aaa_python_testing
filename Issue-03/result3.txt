@@ -1,0 +1,13 @@
+test_empty (test_one_hot_encoder_unittest.TestFitTransform)
+Тест для входных данных в виде пустого списка ... ok
+test_one_string (test_one_hot_encoder_unittest.TestFitTransform)
+Тест на корректность вывода для входных данных в виде одной строки ... ok
+test_positive (test_one_hot_encoder_unittest.TestFitTransform)
+Тест на корректность вывода для входных данных в виде списка ... ok
+test_type_error (test_one_hot_encoder_unittest.TestFitTransform)
+Тест для входных данных типа int ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.003s
+
+OK
